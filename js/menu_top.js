@@ -2,7 +2,7 @@
 var main = function() { 
 	$('.imen').click(function() { 
 		$('.menu_top').animate({ 
-			top: '0%' 
+			left: '0%' 
 		}, 200); 
 
 
@@ -12,7 +12,7 @@ var main = function() {
 	
 	$('.m_t_close_ico').click(function() { 
 		$('.menu_top').animate({ 
-			top: '-150%' 
+			left: '-100%' 
 		}, 200);         
 
 	});
